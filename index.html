@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ireum Kim — Materials Engineering</title>
+<meta name="description" content="Personal page of Ireum Kim: research interests, schedule, projects, and hobbies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans+KR:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="page">
+
+  <nav class="nav">
+    <a class="home" href="index.html" aria-current="page">Ireum Kim</a>
+    <a href="music.html">Music</a>
+    <a href="film.html">Film</a>
+  </nav>
+
+  <!-- ═══ Header ═══ -->
+  <header class="head">
+    <!-- Swap for: <img class="photo" src="me.jpg" alt="Ireum Kim"> -->
+    <div class="photo">PHOTO</div>
+    <div>
+      <h1>Ireum Kim</h1>
+      <p class="affil">
+        <strong>MS candidate, Materials Science &amp; Engineering</strong><br>
+        Energy Materials Lab, ○○ University · advised by Prof. ○○ Park
+      </p>
+      <div class="contact">
+        <a href="mailto:me@example.ac.kr">me@example.ac.kr</a>
+        <a href="#">CV (PDF)</a>
+        <a href="https://scholar.google.com/">Scholar</a>
+        <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ Current status — update this line often ═══ -->
+  <p class="status">
+    <span class="dot"></span>
+    <span class="tag">Now</span>
+    Writing up impedance results and looking for a summer internship.
+    <span class="stamp">Updated Aug 15, 2026</span>
+  </p>
+
+  <!-- ═══ About ═══ -->
+  <section class="row">
+    <div class="label">About</div>
+    <div>
+      <p>
+        I work on cathode materials for solid-state batteries, mostly on what happens at the
+        electrolyte interface. Alongside the bench work I build small Python tools that turn raw
+        instrument output into something the rest of the lab can actually read.
+      </p>
+      <p>
+        Outside the lab I shoot film and listen to more records than I have shelf space for.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══ Interests ═══ -->
+  <section class="row">
+    <div class="label">Interests</div>
+    <div>
+      <ul class="tags">
+        <li>Solid-state batteries</li>
+        <li>Electrolyte interfaces</li>
+        <li>Cathode synthesis</li>
+        <li>Impedance spectroscopy</li>
+        <li>Lab data automation</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══ Weekly timetable ═══
+       Column: 2=Mon 3=Tue 4=Wed 5=Thu 6=Fri
+       Row:    9:00→2, 10:00→3, 11:00→4, 12:00→5, 13:00→6,
+               14:00→7, 15:00→8, 16:00→9, 17:00→10, 18:00→11
+       A 10–12 block on Wednesday → grid-column:4; grid-row:3/5
+       Add class="tt-slot alt" for an outlined (secondary) block. -->
+  <section class="row">
+    <div class="label">Schedule</div>
+    <div class="tt-scroll">
+      <div class="timetable">
+        <div></div>
+        <div class="tt-day">Mon</div>
+        <div class="tt-day">Tue</div>
+        <div class="tt-day">Wed</div>
+        <div class="tt-day">Thu</div>
+        <div class="tt-day">Fri</div>
+
+        <div class="tt-hour" style="grid-column:1; grid-row:2">9</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:3">10</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:4">11</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:5">12</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:6">13</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:7">14</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:8">15</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:9">16</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:10">17</div>
+        <div class="tt-hour" style="grid-column:1; grid-row:11">18</div>
+
+        <div class="tt-slot" style="grid-column:2; grid-row:3/5">
+          Electrochemistry<span>Eng 302</span></div>
+        <div class="tt-slot alt" style="grid-column:2; grid-row:6/9">
+          Lab bench time<span>B1 Synthesis</span></div>
+
+        <div class="tt-slot" style="grid-column:3; grid-row:2/4">
+          Solid State Physics<span>Sci 214</span></div>
+
+        <div class="tt-slot alt" style="grid-column:4; grid-row:4/6">
+          Group meeting<span>Lab seminar rm</span></div>
+        <div class="tt-slot" style="grid-column:4; grid-row:7/10">
+          Characterization<span>XRD / SEM</span></div>
+
+        <div class="tt-slot" style="grid-column:5; grid-row:3/5">
+          Electrochemistry<span>Eng 302</span></div>
+
+        <div class="tt-slot alt" style="grid-column:6; grid-row:2/5">
+          Writing block<span>no meetings</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Upcoming ═══ -->
+  <section class="row">
+    <div class="label">Upcoming</div>
+    <ul class="agenda">
+      <li><span class="when">Aug 28</span>
+        <span>Abstract deadline — KIChE Fall Meeting<br><span class="note">Draft due to advisor a week earlier</span></span></li>
+      <li><span class="when">Sep 04</span>
+        <span>Lab seminar talk: interface resistance results</span></li>
+      <li><span class="when">Oct 12–14</span>
+        <span>Fall conference, Busan<br><span class="note">Poster + travel grant application</span></span></li>
+    </ul>
+  </section>
+
+  <!-- ═══ Education ═══ -->
+  <section class="row">
+    <div class="label">Education</div>
+    <ul class="entries">
+      <li><span class="year">2025 –</span>
+        <div><p class="entry-title">MS, Materials Science &amp; Engineering</p>
+        <p class="entry-desc">○○ University · Energy Materials Lab</p></div></li>
+      <li><span class="year">2021 – 25</span>
+        <div><p class="entry-title">BS, Materials Science &amp; Engineering</p>
+        <p class="entry-desc">Thesis: dendrite-suppressing coatings for lithium metal anodes</p></div></li>
+    </ul>
+  </section>
+
+  <!-- ═══ Projects ═══ -->
+  <section class="row">
+    <div class="label">Projects</div>
+    <ul class="entries">
+      <li><span class="year">2026</span>
+        <div><p class="entry-title">Impedance data pipeline</p>
+        <p class="entry-desc">Parses raw potentiostat exports into tidy tables and plots. Used across the lab. <a href="#">Code</a></p></div></li>
+      <li><span class="year">2025</span>
+        <div><p class="entry-title">Interfacial resistance in sulfide electrolytes</p>
+        <p class="entry-desc">Undergraduate research project · departmental poster session</p></div></li>
+    </ul>
+  </section>
+
+  <!-- ═══ Hobby pages ═══ -->
+  <section class="row">
+    <div class="label">Off hours</div>
+    <ul class="tiles">
+      <li><a class="tile" href="music.html">
+        <h3>Music</h3>
+        <p>What I've been listening to, and the records worth the shelf space.</p></a></li>
+      <li><a class="tile" href="film.html">
+        <h3>Film</h3>
+        <p>One roll a month, shot on a Pentax MX. Scans and notes.</p></a></li>
+    </ul>
+  </section>
+
+  <footer>Last updated Aug 2026 · Built by hand</footer>
+
+</div>
+</body>
+</html>
